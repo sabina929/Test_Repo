@@ -1,0 +1,53 @@
+@import "variables";
+@import "mixins";
+
+
+header {
+    text-align: center;
+
+    & h1 {
+        color: $primary-color;
+        font-size: 3rem;
+    }
+}
+
+main {
+    @include positionToCenter;
+}
+
+section {
+
+    width: 80%;
+
+    & h3 {
+        color: $secondary-color;
+        margin-top: 40px;
+    }
+}
+
+aside {
+    text-align: center;
+
+    margin-top: 225px;
+    margin-right: 25px;
+
+
+    & p {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        &:hover {
+            color: #999;
+            cursor: pointer;
+        }
+    }
+
+}
+
+.justifying {
+    text-align: justify;
+}

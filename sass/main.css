@@ -1,0 +1,56 @@
+header {
+  text-align: center;
+}
+
+header h1 {
+  color: #a401f0;
+  font-size: 3rem;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+section {
+  width: 80%;
+}
+
+section h3 {
+  color: #0442ec;
+  margin-top: 40px;
+}
+
+aside {
+  text-align: center;
+  margin-top: 225px;
+  margin-right: 25px;
+}
+
+aside p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+aside p:hover {
+  color: #999;
+  cursor: pointer;
+}
+
+.justifying {
+  text-align: justify;
+}
+/*# sourceMappingURL=main.css.map */
