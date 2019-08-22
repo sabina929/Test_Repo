@@ -7,7 +7,7 @@ ipsumAnimi.addEventListener('click', animateParagraphs);
 
 function animateParagraphs() {
     paragraphs.forEach(parag => {
-        console.log(parag);
+        // console.log(parag);
         parag.classList.toggle('justifying');
     })
 
